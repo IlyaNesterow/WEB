@@ -1,0 +1,34 @@
+body { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);  
+  grid-gap: .5rem;
+  margin: 0;
+  height: 100vh; width: 100vw;
+}
+header, footer, article, nav, section {
+  padding: 1rem;
+  background: #9acd32;
+}
+header {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+footer {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+article { 
+  grid-row-start: 2;
+  grid-row-end: 9;
+  grid-column-start: 2;
+  grid-column-end: 6;  
+}
+nav { 
+  grid-row-start: 2;
+  grid-row-end: 10;
+}
+section { 
+  grid-column-start: 2;
+  grid-column-end: 6;
+}   

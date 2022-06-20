@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; height: 100vh;
+}
+#container{
+  padding: 1rem;
+  border: solid 1px #333;
+  border-radius: .5rem;
+}
+#no-btn{
+  position: absolute;
+}

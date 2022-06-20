@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    table{
+      width: 100%;
+      margin: 1rem 0;
+    }
+    caption{
+      margin: 1rem;
+    }
+    table, th, td{
+      border-collapse: collapse;
+    }
+    th, td{
+      border: 1px solid #111;
+      padding: .5rem;
+    }
+    th{
+      text-align: left;
+    }
+    img{
+      max-height: 200px;
+    }
+    #second thead{
+      background-color: #111;
+      color: #fff;
+    }
+    #second tbody tr:nth-child(odd){
+      background-color: #ddd;
+    }
+    #first-image{
+      height: 150px;
+      float: right;
+    }
+    #second-image{
+      border: 10px solid #333;
+    }
+    #third-image{
+      border: 15px solid #1177ff;
+    }
+  </style>
+  <title>Tabulas</title>
+</head>
+<body>
+  <table>
+    <caption>1. tabula</caption>
+    <thead>
+      <th>Vards</th>
+      <th>Uzvards</th>
+      <th>Vecums</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Anna</td>
+        <td>Vaverite</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Andris</td>
+        <td>Jezups</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Andrejs</td>
+        <td>Logins</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+  </table>
+  <table id="second">
+    <caption>2. tabula</caption>
+    <thead>
+      <th>Vards</th>
+      <th>Uzvards</th>
+      <th>Vecums</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Anna</td>
+        <td>Vaverite</td>
+        <td>50</td>
+      </tr>
+      <tr>
+        <td>Andris</td>
+        <td>Jezups</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>Andrejs</td>
+        <td>Logins</td>
+        <td>8</td>
+      </tr>
+    </tbody>
+  </table>
+  <table id="third">
+    <caption>3. tabula</caption>
+    <thead>
+      <th>Vards</th>
+      <th>Uzvards</th>
+      <th>Vecums</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Anna</td>
+        <td>Vaverite</td>
+        <td>
+          <img 
+            id="first-image"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Andris</td>
+        <td>Jezups</td>
+        <td>
+          <img 
+            id="second-image"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Andrejs</td>
+        <td>Logins</td>
+        <td>
+          <img 
+            id="third-image"
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

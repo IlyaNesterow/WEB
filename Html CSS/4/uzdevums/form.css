@@ -1,0 +1,35 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  width: 100vw; height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  max-width: 400px;
+  width: 100%;
+  font-weight: 100;
+  font-size: .8rem;
+  color: #777;
+  margin: 0 auto;
+  line-height: 2rem;
+  background-color: #fafafa;
+  padding: 2rem;
+  box-shadow: 0 0 1rem #888;
+}
+form button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #4caf50;
+  color: #fff;
+  margin-bottom: .6rem;
+  padding: .7rem;
+  font-size: 1rem;
+  -webkit-transition: background-color .5s;
+     -moz-transition: background-color .5s;
+          transition: background-color .5s;
+}
+form button:hover {
+  background-color: #132e15;
+}

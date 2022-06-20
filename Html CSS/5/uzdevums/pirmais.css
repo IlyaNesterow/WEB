@@ -1,0 +1,30 @@
+h1{ 
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 200px; 
+  letter-spacing: -1px; 
+  text-align: center; 
+}
+h2{ 
+  color: #111; 
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 30px; 
+  font-weight: 200;
+  text-align: center; 
+}
+p{ 
+  color: #685206; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 14px; 
+  text-align: center; 
+  text-justify: inter-word; 
+  margin-bottom: 1.3rem;
+}
+hr{ 
+  height: 10px; 
+  background-color: #000; 
+}
+p, hr{
+  width: 90%;
+  margin-left: 5%;
+}

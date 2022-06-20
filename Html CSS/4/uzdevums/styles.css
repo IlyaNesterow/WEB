@@ -1,0 +1,27 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+}
+a{
+  display: block;
+}
+.left{
+  width: 50%;
+}
+#links{
+  padding: 2rem;
+}
+#dzejolis{
+  padding: 2rem;
+  text-align: center;
+}
+#images{
+  display: flex;
+}
+#images img{
+  width: calc(50% - 2rem);
+  margin: 1rem;
+}
